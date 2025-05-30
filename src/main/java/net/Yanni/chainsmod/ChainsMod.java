@@ -1,6 +1,7 @@
 package net.Yanni.chainsmod;
 
 import com.mojang.logging.LogUtils;
+import net.Yanni.chainsmod.item.ModCreativeModTabs;
 import net.Yanni.chainsmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -29,6 +30,8 @@ public class ChainsMod
     public ChainsMod(FMLJavaModLoadingContext context)
     {
         IEventBus modEventBus = context.getModEventBus();
+
+        ModCreativeModTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
 
