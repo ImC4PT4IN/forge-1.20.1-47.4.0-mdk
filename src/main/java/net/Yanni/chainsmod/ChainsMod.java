@@ -1,6 +1,8 @@
 package net.Yanni.chainsmod;
 
 import com.mojang.logging.LogUtils;
+import net.Yanni.chainsmod.item.ModItems;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -28,6 +30,8 @@ public class ChainsMod
     {
         IEventBus modEventBus = context.getModEventBus();
 
+        ModItems.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
@@ -43,6 +47,12 @@ public class ChainsMod
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.HELLBRINGER);
+        }
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.HELLBRINGER_SWORD);
+        }
 
     }
 
