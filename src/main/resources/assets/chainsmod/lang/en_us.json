@@ -1,8 +1,9 @@
 {
   "item.chainsmod.hellbringer": "Hellbringer",
   "item.chainsmod.hellbringer_sword": "Hellbringer Sword",
-
+  "block.chainsmod.hellbringer_block_ore": "Hellbringer Block Ore",
   "block.chainsmod.hellbringer_block": "Hellbringer Block",
-
+  "block.chainsmod.blue_block": "Blue Block",
+  "item.chainsmod.hellbringer_ore": "Hellbringer Ore",
   "chains.tutorial_tab": "Chains Mod"
 }

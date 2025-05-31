@@ -18,8 +18,13 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, ChainsMod.MOD_ID);
 
+
     public static final RegistryObject<Block> HELLBRINGER_BLOCK = registerBlock("hellbringer_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+    public static final RegistryObject<Block> BLUE_BLOCK = registerBlock("blue_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)));
+    public static final RegistryObject<Block> HELLBRINGER_BLOCK_ORE = registerBlock("hellbringer_block_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_ORE)));
 
     private  static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

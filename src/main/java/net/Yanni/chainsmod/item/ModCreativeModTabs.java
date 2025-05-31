@@ -22,8 +22,10 @@ public class ModCreativeModTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.HELLBRINGER.get());
                         pOutput.accept(ModItems.HELLBRINGER_SWORD.get());
-
+                        pOutput.accept(ModBlocks.BLUE_BLOCK.get());
                         pOutput.accept(ModBlocks.HELLBRINGER_BLOCK.get());
+                        pOutput.accept(ModBlocks.HELLBRINGER_BLOCK_ORE.get());
+                        pOutput.accept(ModItems.HELLBRINGER_ORE.get());
                     })
                     .build());
 

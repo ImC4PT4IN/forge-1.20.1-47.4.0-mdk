@@ -15,8 +15,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final  RegistryObject<Item> HELLBRINGER_SWORD = Items.register("hellbringer_sword",
             () -> new Item(new Item.Properties()));
-
-
+    public static final  RegistryObject<Item> HELLBRINGER_ORE = Items.register("hellbringer_ore",
+            () -> new Item((new Item.Properties())));
 
 
 public static void register(IEventBus eventBus){
