@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "hellbringer",
+  "ingredient": {
+    "item": "chainsmod:blue_ore"
+  },
+  "result": "chainsmod:blue"
+}

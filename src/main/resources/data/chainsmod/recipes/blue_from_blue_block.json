@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "chainsmod:blue_block"
+    }
+  ],
+  "result": {
+    "item": "chainsmod:blue",
+    "count": 9
+  }
+}

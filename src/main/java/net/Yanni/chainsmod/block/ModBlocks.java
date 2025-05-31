@@ -37,7 +37,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> END_STONE_HELLBRINGER_BLOCK_ORE = registerBlock("end_stone_hellbringer_block_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE)
                     .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(3,6)));
-
+    public static final RegistryObject<Block> BLUE_BLOCK_ORE = registerBlock("blue_block_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
+                    .strength(2f).requiresCorrectToolForDrops(), UniformInt.of(3,6)));
 
 
     private  static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block){
