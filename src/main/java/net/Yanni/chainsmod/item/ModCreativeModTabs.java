@@ -26,6 +26,9 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.HELLBRINGER_BLOCK.get());
                         pOutput.accept(ModBlocks.HELLBRINGER_BLOCK_ORE.get());
                         pOutput.accept(ModItems.HELLBRINGER_ORE.get());
+                        pOutput.accept(ModBlocks.DEEPSLATE_HELLBRINGER_BLOCK_ORE.get());
+                        pOutput.accept(ModBlocks.NETHER_HELLBRINGER_BLOCK_ORE.get());
+                        pOutput.accept(ModBlocks.END_STONE_HELLBRINGER_BLOCK_ORE.get());
                     })
                     .build());
 

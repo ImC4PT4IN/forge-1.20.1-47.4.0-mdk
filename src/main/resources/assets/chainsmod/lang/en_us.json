@@ -5,5 +5,8 @@
   "block.chainsmod.hellbringer_block": "Hellbringer Block",
   "block.chainsmod.blue_block": "Blue Block",
   "item.chainsmod.hellbringer_ore": "Hellbringer Ore",
+  "block.chainsmod.deepslate_hellbringer_block_ore": "Deepslate Hellbringer Block Ore",
+  "block.chainsmod.nether_hellbringer_block_ore": "Nether Hellbringer Block Ore",
+  "block.chainsmod.end_stone_hellbringer_block_ore": "EndStone Hellbringer Block Ore",
   "chains.tutorial_tab": "Chains Mod"
 }

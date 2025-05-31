@@ -1,8 +1,10 @@
 {
   "values": [
-    "chainsmod:hellbringer_block",
     "chainsmod:blue_block",
-    "chainsmod:hellbringer_ore_block"
-  ]
-
+    "chainsmod:hellbringer_block",
+    "chainsmod:hellbringer_block_ore",
+    "chainsmod:deepslate_hellbringer_block_ore",
+    "chainsmod:end_stone_hellbringer_block_ore",
+    "chainsmod:nether_hellbringer_block_ore"
+    ]
 }

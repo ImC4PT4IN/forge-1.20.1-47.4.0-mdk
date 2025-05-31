@@ -2,10 +2,12 @@ package net.Yanni.chainsmod.block;
 
 import net.Yanni.chainsmod.ChainsMod;
 import net.Yanni.chainsmod.item.ModItems;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -24,7 +26,19 @@ public class ModBlocks {
     public static final RegistryObject<Block> BLUE_BLOCK = registerBlock("blue_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.AMETHYST_BLOCK)));
     public static final RegistryObject<Block> HELLBRINGER_BLOCK_ORE = registerBlock("hellbringer_block_ore",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_ORE)));
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
+                    .strength(2f).requiresCorrectToolForDrops(), UniformInt.of(3,6)));
+    public static final RegistryObject<Block> DEEPSLATE_HELLBRINGER_BLOCK_ORE = registerBlock("deepslate_hellbringer_block_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE)
+                    .strength(5f).requiresCorrectToolForDrops(), UniformInt.of(3,6)));
+    public static final RegistryObject<Block> NETHER_HELLBRINGER_BLOCK_ORE = registerBlock("nether_hellbringer_block_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.NETHERRACK)
+                    .strength(1f).requiresCorrectToolForDrops(), UniformInt.of(6,12)));
+    public static final RegistryObject<Block> END_STONE_HELLBRINGER_BLOCK_ORE = registerBlock("end_stone_hellbringer_block_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE)
+                    .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(3,6)));
+
+
 
     private  static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

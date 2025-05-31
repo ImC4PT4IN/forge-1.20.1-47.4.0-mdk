@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "chainsmod:block/nether_hellbringer_block_ore"
+  }
+}
