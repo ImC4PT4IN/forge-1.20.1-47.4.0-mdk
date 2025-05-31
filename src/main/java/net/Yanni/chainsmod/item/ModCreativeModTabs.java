@@ -1,6 +1,7 @@
 package net.Yanni.chainsmod.item;
 
 import net.Yanni.chainsmod.ChainsMod;
+import net.Yanni.chainsmod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -22,6 +23,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.HELLBRINGER.get());
                         pOutput.accept(ModItems.HELLBRINGER_SWORD.get());
 
+                        pOutput.accept(ModBlocks.HELLBRINGER_BLOCK.get());
                     })
                     .build());
 

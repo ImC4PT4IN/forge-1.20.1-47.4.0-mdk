@@ -1,6 +1,7 @@
 package net.Yanni.chainsmod;
 
 import com.mojang.logging.LogUtils;
+import net.Yanni.chainsmod.block.ModBlocks;
 import net.Yanni.chainsmod.item.ModCreativeModTabs;
 import net.Yanni.chainsmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -34,6 +35,8 @@ public class ChainsMod
         ModCreativeModTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
