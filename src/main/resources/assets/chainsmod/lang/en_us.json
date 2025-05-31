@@ -15,7 +15,7 @@
   "block.chainsmod.sound_block": "Sound Block",
   "item.chainsmod.strawberry": "Strawberry",
   "item.chainsmod.petrol": "Petrol",
-  "tooltip.chainsmod.metal_detector.tooltip": "Finds valuables underground(Iron, Gold, Diamond)",
+  "tooltip.chainsmod.metal_detector.tooltip": "Finds valuables underground",
   "tooltip.chainsmod.sound_block.tooltip": "Makes sound when right clicked",
   "chains.tutorial_tab": "Chains Mod"
 }
