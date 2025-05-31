@@ -1,6 +1,7 @@
 package net.Yanni.chainsmod.item;
 
 import net.Yanni.chainsmod.ChainsMod;
+import net.Yanni.chainsmod.item.custom.FuelItem;
 import net.Yanni.chainsmod.item.custom.MetalDetectorItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -24,7 +25,10 @@ public class ModItems {
             () -> new Item((new Item.Properties())));
     public static final  RegistryObject<Item> METAL_DETECTOR = Items.register("metal_detector",
             () -> new MetalDetectorItem((new Item.Properties().durability(100))));
-
+    public static final  RegistryObject<Item> STRAWBERRY = Items.register("strawberry",
+            () -> new Item((new Item.Properties().food(ModFoods.STRAWBERRY))));
+    public static final RegistryObject<Item> PETROL = Items.register("petrol",
+            () -> new FuelItem(new Item.Properties(), 400));
 
 public static void register(IEventBus eventBus){
 
