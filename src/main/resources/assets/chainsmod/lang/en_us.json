@@ -11,5 +11,8 @@
   "block.chainsmod.blue_block_ore": "Blue Block Ore",
   "item.chainsmod.blue_ore": "Blue Ore",
   "item.chainsmod.blue": "Blue",
+  "item.chainsmod.metal_detector": "Metal Detector",
+  "block.chainsmod.sound_block": "Sound Block",
+
   "chains.tutorial_tab": "Chains Mod"
 }

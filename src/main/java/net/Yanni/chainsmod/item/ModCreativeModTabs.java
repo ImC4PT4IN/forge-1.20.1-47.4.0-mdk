@@ -32,6 +32,8 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.BLUE_ORE.get());
                         pOutput.accept(ModBlocks.BLUE_BLOCK_ORE.get());
                         pOutput.accept(ModItems.BLUE.get());
+                        pOutput.accept(ModItems.METAL_DETECTOR.get());
+                        pOutput.accept(ModBlocks.SOUND_BLOCK.get());
                     })
                     .build());
 
