@@ -53,7 +53,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("&#&")
                 .pattern(" S ")
                 .pattern(" S ")
-                .define('#', ModItems.BLUE.get())
+                .define('#', ModBlocks.BLUE_BLOCK.get())
                 .define('&', Items.GOLD_INGOT)
                 .define('S', Items.GOLD_BLOCK)
                 .unlockedBy(getHasName(ModItems.BLUE.get()), has(ModBlocks.BLUE_BLOCK.get()))
