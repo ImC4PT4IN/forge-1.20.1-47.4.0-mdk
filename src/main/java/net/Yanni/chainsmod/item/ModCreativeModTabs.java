@@ -36,6 +36,16 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.SOUND_BLOCK.get());
                         pOutput.accept(ModItems.STRAWBERRY.get());
                         pOutput.accept(ModItems.PETROL.get());
+                        pOutput.accept(ModBlocks.HELLBRINGER_SLAB.get());
+                        pOutput.accept(ModBlocks.HELLBRINGER_DOOR.get());
+                        pOutput.accept(ModBlocks.HELLBRINGER_TRAPDOOR.get());
+                        pOutput.accept(ModBlocks.HELLBRINGER_WALL.get());
+                        pOutput.accept(ModBlocks.HELLBRINGER_BUTTON.get());
+                        pOutput.accept(ModBlocks.HELLBRINGER_FENCE.get());
+                        pOutput.accept(ModBlocks.HELLBRINGER_FENCE_GATE.get());
+                        pOutput.accept(ModBlocks.HELLBRINGER_PRESSURE_PLATE.get());
+                        pOutput.accept(ModBlocks.HELLBRINGER_STAIRS.get());
+                        pOutput.accept(ModItems.BLUE_STAFF.get());
                     })
                     .build());
 

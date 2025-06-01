@@ -5,6 +5,7 @@ import net.Yanni.chainsmod.block.ModBlocks;
 import net.Yanni.chainsmod.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
@@ -46,6 +47,16 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("SSS")
                 .define('S', ModItems.BLUE.get())
                 .unlockedBy(getHasName(ModItems.BLUE.get()), has(ModItems.BLUE.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.BLUE_STAFF.get())
+                .pattern("&#&")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('#', ModItems.BLUE.get())
+                .define('&', Items.GOLD_INGOT)
+                .define('S', Items.GOLD_BLOCK)
+                .unlockedBy(getHasName(ModItems.BLUE.get()), has(ModBlocks.BLUE_BLOCK.get()))
                 .save(pWriter);
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.HELLBRINGER.get(),9)

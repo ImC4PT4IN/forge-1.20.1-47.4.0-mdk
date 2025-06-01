@@ -16,7 +16,7 @@ public class ModItems {
     public static final RegistryObject<Item> HELLBRINGER = Items.register("hellbringer",
             () -> new Item(new Item.Properties()));
     public static final  RegistryObject<Item> HELLBRINGER_SWORD = Items.register("hellbringer_sword",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().stacksTo(1)));
     public static final  RegistryObject<Item> HELLBRINGER_ORE = Items.register("hellbringer_ore",
             () -> new Item((new Item.Properties())));
     public static final  RegistryObject<Item> BLUE_ORE = Items.register("blue_ore",
@@ -26,7 +26,10 @@ public class ModItems {
     public static final  RegistryObject<Item> METAL_DETECTOR = Items.register("metal_detector",
             () -> new MetalDetectorItem((new Item.Properties().durability(100))));
     public static final  RegistryObject<Item> STRAWBERRY = Items.register("strawberry",
-            () -> new Item((new Item.Properties().food(ModFoods.STRAWBERRY))));
+            () -> new Item((new Item.Properties().food(ModFoods.STRAWBERRY).stacksTo(16))));
+    public static final  RegistryObject<Item> BLUE_STAFF = Items.register("blue_staff",
+            () -> new Item((new Item.Properties().stacksTo(1))));
+
     public static final RegistryObject<Item> PETROL = Items.register("petrol",
             () -> new FuelItem(new Item.Properties(), 400));
 

@@ -1,9 +1,18 @@
-// 1.20.1	2025-06-01T11:09:13.4474355	Item Models: chainsmod
+// 1.20.1	2025-06-01T12:50:23.4654821	Item Models: chainsmod
 d1a5d106e81ffa2ca74ca24bc5db3b35fa8a25a0 assets/chainsmod/models/item/blue.json
 1f113639821a00cbf43c2f7d11f94dc8a1685bc0 assets/chainsmod/models/item/blue_ore.json
 b5d3b9b5f9b22098a960768feabbd8a865fa818e assets/chainsmod/models/item/hellbringer.json
+bd022207f376531845a11a433cb9766593b1e4a6 assets/chainsmod/models/item/hellbringer_button.json
+96d99976b304e3e4f51d597521d1673a2240e35a assets/chainsmod/models/item/hellbringer_door.json
+7a77a43f6e776470493480113ff3f46d29f9ccb4 assets/chainsmod/models/item/hellbringer_fence.json
+2be91279ff71dda5abe81abe9f632e2011f7b9ca assets/chainsmod/models/item/hellbringer_fence_gate.json
 e703fcf2c49ac1cace45d2ef6449f68f7cffcd0c assets/chainsmod/models/item/hellbringer_ore.json
+4b30f6a169e8b828f23819626661d5f0b4a8d1af assets/chainsmod/models/item/hellbringer_pressure_plate.json
+a414df69f5495f62205eb59de3aa49f84834755e assets/chainsmod/models/item/hellbringer_slab.json
+b5c974fc58437bcb8afabe573779818dfe7e34c8 assets/chainsmod/models/item/hellbringer_stairs.json
 c2177fca37cae7d41d51d48ea7d2ad89b3f3bc10 assets/chainsmod/models/item/hellbringer_sword.json
+e0bf180f0197a8a2ce41af2d4f141cd66dedc354 assets/chainsmod/models/item/hellbringer_trapdoor.json
+6a061449e7060e05abaff79e2469f0f39ace5639 assets/chainsmod/models/item/hellbringer_wall.json
 d2c63aedf501270c592edf890cda1a29a7869b85 assets/chainsmod/models/item/metal_detector.json
 af2dc77a44832058a03a08aeb03a78d900de5000 assets/chainsmod/models/item/petrol.json
 30eb3913015adf92fe09af74526d8d5660176ea8 assets/chainsmod/models/item/strawberry.json

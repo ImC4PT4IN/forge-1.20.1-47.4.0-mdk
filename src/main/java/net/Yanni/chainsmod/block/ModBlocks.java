@@ -3,14 +3,14 @@ package net.Yanni.chainsmod.block;
 import net.Yanni.chainsmod.ChainsMod;
 import net.Yanni.chainsmod.block.custom.SoundBlock;
 import net.Yanni.chainsmod.item.ModItems;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.DropExperienceBlock;
-import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -44,6 +44,39 @@ public class ModBlocks {
                     .strength(2f).requiresCorrectToolForDrops(), UniformInt.of(3,6)));
     public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",
             () -> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+
+
+    public static final RegistryObject<Block> HELLBRINGER_STAIRS = registerBlock("hellbringer_stairs",
+            () -> new StairBlock(() -> ModBlocks.HELLBRINGER_BLOCK.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+
+    public static final RegistryObject<Block> HELLBRINGER_SLAB = registerBlock("hellbringer_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+
+    public static final RegistryObject<Block> HELLBRINGER_BUTTON = registerBlock("hellbringer_button",
+            () -> new ButtonBlock(BlockBehaviour.Properties.copy(Blocks.STONE_BUTTON),
+                    BlockSetType.IRON, 10, true));
+
+    public static final RegistryObject<Block> HELLBRINGER_PRESSURE_PLATE = registerBlock("hellbringer_pressure_plate",
+            () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK),
+                    BlockSetType.IRON));
+
+    public static final RegistryObject<Block> HELLBRINGER_FENCE = registerBlock("hellbringer_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+
+
+    public static final RegistryObject<Block> HELLBRINGER_FENCE_GATE = registerBlock("hellbringer_fence_gate",
+            () -> new FenceGateBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK), SoundEvents.CHAIN_PLACE, SoundEvents.ANVIL_BREAK));
+
+    public static final RegistryObject<Block> HELLBRINGER_WALL = registerBlock("hellbringer_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+
+    public static final RegistryObject<Block> HELLBRINGER_DOOR = registerBlock("hellbringer_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion(), BlockSetType.IRON));
+
+    public static final RegistryObject<Block> HELLBRINGER_TRAPDOOR = registerBlock("hellbringer_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion(), BlockSetType.IRON));
+
+
 
     private  static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

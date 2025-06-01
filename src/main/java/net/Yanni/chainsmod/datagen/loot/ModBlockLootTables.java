@@ -40,7 +40,18 @@ public class ModBlockLootTables extends BlockLootSubProvider {
                 block -> createSecondCopperLikeOreDrops(ModBlocks.END_STONE_HELLBRINGER_BLOCK_ORE.get(), ModItems.HELLBRINGER_ORE.get()));
         this.add(ModBlocks.BLUE_BLOCK_ORE.get(),
                 block -> createCopperLikeOreDrops(ModBlocks.BLUE_BLOCK_ORE.get(), ModItems.BLUE_ORE.get()));
+        this.dropSelf(ModBlocks.HELLBRINGER_WALL.get());
+        this.dropSelf(ModBlocks.HELLBRINGER_FENCE.get());
+        this.dropSelf(ModBlocks.HELLBRINGER_FENCE_GATE.get());
+        this.dropSelf(ModBlocks.HELLBRINGER_BUTTON.get());
+        this.dropSelf(ModBlocks.HELLBRINGER_STAIRS.get());
+        this.dropSelf(ModBlocks.HELLBRINGER_TRAPDOOR.get());
+        this.dropSelf(ModBlocks.HELLBRINGER_PRESSURE_PLATE.get());
 
+        this.add(ModBlocks.HELLBRINGER_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.HELLBRINGER_SLAB.get()));
+        this.add(ModBlocks.HELLBRINGER_DOOR.get(),
+                block -> createDoorTable(ModBlocks.HELLBRINGER_DOOR.get()));
 
 
 

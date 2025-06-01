@@ -17,5 +17,15 @@
   "item.chainsmod.petrol": "Petrol",
   "tooltip.chainsmod.metal_detector.tooltip": "Finds valuables underground",
   "tooltip.chainsmod.sound_block.tooltip": "Makes sound when right clicked",
+  "block.chainsmod.hellbringer_stairs": "Hellbringer Stairs",
+  "block.chainsmod.hellbringer_slab": "Hellbringer Slab",
+  "block.chainsmod.hellbringer_button": "Hellbringer Button",
+  "block.chainsmod.hellbringer_pressure_plate": "Hellbringer Pressure Plate",
+  "block.chainsmod.hellbringer_fence": "Hellbringer Fence",
+  "block.chainsmod.hellbringer_fence_gate": "Hellbringer Fence Gate",
+  "block.chainsmod.hellbringer_wall": "Hellbringer Wall",
+  "block.chainsmod.hellbringer_door": "Hellbringer Door",
+  "block.chainsmod.hellbringer_trapdoor": "Hellbringer Trapdoor",
+  "item.chainsmod.blue_staff": "Blue Staff",
   "chains.tutorial_tab": "Chains Mod"
 }
