@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "chainsmod:block/hellbringer_block",
+    "side": "chainsmod:block/hellbringer_block",
+    "top": "chainsmod:block/hellbringer_block"
+  }
+}

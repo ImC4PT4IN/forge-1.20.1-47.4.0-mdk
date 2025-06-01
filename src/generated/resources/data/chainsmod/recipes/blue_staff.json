@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "chainsmod:blue"
+    },
+    "&": {
+      "item": "minecraft:gold_ingot"
+    },
+    "S": {
+      "item": "minecraft:gold_block"
+    }
+  },
+  "pattern": [
+    "&#&",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "item": "chainsmod:blue_staff"
+  },
+  "show_notification": true
+}

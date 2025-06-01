@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "chainsmod:block/hellbringer_slab"
+    },
+    "type=double": {
+      "model": "chainsmod:block/hellbringer_block"
+    },
+    "type=top": {
+      "model": "chainsmod:block/hellbringer_slab_top"
+    }
+  }
+}
