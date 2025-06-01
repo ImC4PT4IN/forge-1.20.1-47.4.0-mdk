@@ -27,5 +27,9 @@
   "block.chainsmod.hellbringer_door": "Hellbringer Door",
   "block.chainsmod.hellbringer_trapdoor": "Hellbringer Trapdoor",
   "item.chainsmod.blue_staff": "Blue Staff",
+  "item.chainsmod.hellbringer_pickaxe": "Hellbringer Pickaxe",
+  "item.chainsmod.hellbringer_axe": "Hellbringer Axe",
+  "item.chainsmod.hellbringer_shovel": "Hellbringer Shovel",
+  "item.chainsmod.hellbringer_hoe": "Hellbringer Hoe",
   "chains.tutorial_tab": "Chains Mod"
 }

@@ -46,6 +46,10 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.HELLBRINGER_PRESSURE_PLATE.get());
                         pOutput.accept(ModBlocks.HELLBRINGER_STAIRS.get());
                         pOutput.accept(ModItems.BLUE_STAFF.get());
+                        pOutput.accept(ModItems.HELLBRINGER_PICKAXE.get());
+                        pOutput.accept(ModItems.HELLBRINGER_AXE.get());
+                        pOutput.accept(ModItems.HELLBRINGER_SHOVEL.get());
+                        pOutput.accept(ModItems.HELLBRINGER_HOE.get());
                     })
                     .build());
 

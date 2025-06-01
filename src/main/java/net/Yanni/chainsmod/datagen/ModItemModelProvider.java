@@ -42,6 +42,13 @@ public class ModItemModelProvider extends ItemModelProvider {
         trapdoorItem(ModBlocks.HELLBRINGER_TRAPDOOR);
         simpleBlockItem(ModBlocks.HELLBRINGER_DOOR);
 
+        handheldItem(ModItems.HELLBRINGER_PICKAXE);
+        handheldItem(ModItems.HELLBRINGER_AXE);
+        handheldItem(ModItems.HELLBRINGER_SHOVEL);
+        handheldItem(ModItems.HELLBRINGER_HOE);
+
+
+
 
     }
 
@@ -70,6 +77,13 @@ public class ModItemModelProvider extends ItemModelProvider {
         this.withExistingParent(ForgeRegistries.BLOCKS.getKey(block.get()).getPath(), mcLoc("block/button_inventory"))
                 .texture("texture",  new ResourceLocation(ChainsMod.MOD_ID, "block/" + ForgeRegistries.BLOCKS.getKey(baseBlock.get()).getPath()));
     }
+
+    private ItemModelBuilder handheldItem(RegistryObject<Item> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/handheld")).texture("layer0",
+                new ResourceLocation(ChainsMod.MOD_ID,"item/" + item.getId().getPath()));
+    }
+
 
     public void wallItem(RegistryObject<Block> block, RegistryObject<Block> baseBlock) {
         this.withExistingParent(ForgeRegistries.BLOCKS.getKey(block.get()).getPath(), mcLoc("block/wall_inventory"))

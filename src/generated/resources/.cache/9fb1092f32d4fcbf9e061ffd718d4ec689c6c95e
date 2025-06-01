@@ -1,4 +1,4 @@
-// 1.20.1	2025-06-01T14:02:24.2482537	Recipes
+// 1.20.1	2025-06-01T14:47:13.6265157	Recipes
 bda21ce8000ec57b5faac7f1e0b1591d93ac5757 data/chainsmod/advancements/recipes/misc/blue.json
 640fe8dbdf49bbfbdcf516581970ee24470ee24f data/chainsmod/advancements/recipes/misc/blue_block.json
 b915d3196281dc1fa331b96cb6781839c89045d3 data/chainsmod/advancements/recipes/misc/blue_from_blasting_blue_block_ore.json
@@ -24,7 +24,7 @@ a326afe41a985b8da5cfe1f6366b5aaf96c1bc41 data/chainsmod/advancements/recipes/mis
 5a4df4a54df49a4b897a5bd103fa78ef36df403d data/chainsmod/recipes/blue_from_blasting_blue_ore.json
 c853ca9ca7d4912d5de1cf5e45da6c28deafa08f data/chainsmod/recipes/blue_from_smelting_blue_block_ore.json
 3676acd3c714932aa9e46965f434a31d9cab224b data/chainsmod/recipes/blue_from_smelting_blue_ore.json
-2caec85cffeed673bef065b045781fcb754f80b4 data/chainsmod/recipes/blue_staff.json
+5ad00c08094609336b288e1062a439db6f9161fd data/chainsmod/recipes/blue_staff.json
 b153d0c3ed9dc82d56d715417be129e94af8de28 data/chainsmod/recipes/hellbringer.json
 1d9d765674cbb106b264a955ea4ea65f11565fe4 data/chainsmod/recipes/hellbringer_block.json
 23a6cf71b03fabf8696cc109c7a41a75f55567a8 data/chainsmod/recipes/hellbringer_from_blasting_deepslate_hellbringer_block_ore.json

@@ -1,8 +1,9 @@
-// 1.20.1	2025-06-01T12:36:42.4342998	Tags for minecraft:block mod id chainsmod
+// 1.20.1	2025-06-01T14:47:13.6275169	Tags for minecraft:block mod id chainsmod
 e35abe08603cfefa325c76870c5c99a2b94af7a1 data/chainsmod/tags/blocks/metal_detector_valuables.json
+77033c5849a61b300b89b973a521ac6a6379d808 data/chainsmod/tags/blocks/needs_hellbringer_tool.json
 3a22addac1a525f67a17925ced142a8ff2b04ec1 data/minecraft/tags/blocks/fences.json
 2d85408d88715be91256c09a7ddfe8ad971a7a35 data/minecraft/tags/blocks/fence_gates.json
 37282fdacbd9c2ae793e137d835821ba21aef3f4 data/minecraft/tags/blocks/mineable/pickaxe.json
 5653cb26404e368a97bef856276798b2f90555fc data/minecraft/tags/blocks/needs_diamond_tool.json
-b7bc5a2978f088772b0ed111411413f1fdb0b826 data/minecraft/tags/blocks/needs_iron_tool.json
+860c7db9535822d06fea56107656d874842290d7 data/minecraft/tags/blocks/needs_iron_tool.json
 fe9b3bf0512c3fade72f0bc675a67c4a4ebb7764 data/minecraft/tags/blocks/walls.json
