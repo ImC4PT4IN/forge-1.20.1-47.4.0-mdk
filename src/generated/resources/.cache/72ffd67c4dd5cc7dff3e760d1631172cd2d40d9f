@@ -1,0 +1,5 @@
+// 1.20.1	2025-06-01T11:09:13.4509422	Tags for minecraft:block mod id chainsmod
+e35abe08603cfefa325c76870c5c99a2b94af7a1 data/chainsmod/tags/blocks/metal_detector_valuables.json
+37282fdacbd9c2ae793e137d835821ba21aef3f4 data/minecraft/tags/blocks/mineable/pickaxe.json
+5653cb26404e368a97bef856276798b2f90555fc data/minecraft/tags/blocks/needs_diamond_tool.json
+b7bc5a2978f088772b0ed111411413f1fdb0b826 data/minecraft/tags/blocks/needs_iron_tool.json

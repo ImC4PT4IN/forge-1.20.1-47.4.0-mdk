@@ -1,0 +1,9 @@
+// 1.20.1	2025-06-01T11:09:13.4494392	Loot Tables
+2612db976017bb333f231a315b0f91bbe231ab2b data/chainsmod/loot_tables/blocks/blue_block.json
+49940b77ec62521f76ef280fd4db120d244d6d9c data/chainsmod/loot_tables/blocks/blue_block_ore.json
+9e932c0d81a4c98b716c7eac1c29a54638d6aab6 data/chainsmod/loot_tables/blocks/deepslate_hellbringer_block_ore.json
+b6209cee794303a96a918b5f3b098299e7780135 data/chainsmod/loot_tables/blocks/end_stone_hellbringer_block_ore.json
+76528ec57193207b133754e99b732e7772dcc3be data/chainsmod/loot_tables/blocks/hellbringer_block.json
+7a8d10d014bf8817e6964002985686aea6bd4047 data/chainsmod/loot_tables/blocks/hellbringer_block_ore.json
+8946bc00619cba58276467b1910fc1166e932c41 data/chainsmod/loot_tables/blocks/nether_hellbringer_block_ore.json
+b787f7ee82365c83f8b82595a2fee41c460ef966 data/chainsmod/loot_tables/blocks/sound_block.json

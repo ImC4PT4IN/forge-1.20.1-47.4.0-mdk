@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 300,
+  "experience": 0.25,
+  "group": "blue",
+  "ingredient": {
+    "item": "chainsmod:blue_block_ore"
+  },
+  "result": "chainsmod:blue"
+}

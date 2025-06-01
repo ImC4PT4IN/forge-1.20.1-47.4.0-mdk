@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 300,
+  "experience": 0.25,
+  "group": "hellbringer",
+  "ingredient": {
+    "item": "chainsmod:end_stone_hellbringer_block_ore"
+  },
+  "result": "chainsmod:hellbringer"
+}

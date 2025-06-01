@@ -16,7 +16,7 @@ import java.util.List;
 import java.util.function.Consumer;
 
 public class ModRecipeProvider extends RecipeProvider implements IConditionBuilder {
-    private static final List<ItemLike> HELLBRINGER_SMELTABLES = List.of(ModItems.HELLBRINGER.get(),
+    private static final List<ItemLike> HELLBRINGER_SMELTABLES = List.of(ModItems.HELLBRINGER_ORE.get(),
             ModBlocks.HELLBRINGER_BLOCK_ORE.get(), ModBlocks.DEEPSLATE_HELLBRINGER_BLOCK_ORE.get(), ModBlocks.NETHER_HELLBRINGER_BLOCK_ORE.get(),
             ModBlocks.END_STONE_HELLBRINGER_BLOCK_ORE.get());
     private static final List<ItemLike> BLUE_SMELTABLES = List.of(ModItems.BLUE_ORE.get(), ModBlocks.BLUE_BLOCK_ORE.get());
