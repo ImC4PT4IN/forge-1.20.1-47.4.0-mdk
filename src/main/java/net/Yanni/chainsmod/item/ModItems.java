@@ -40,15 +40,15 @@ public class ModItems {
     //tools
 
     public static final  RegistryObject<Item> HELLBRINGER_SWORD = Items.register("hellbringer_sword",
-            () -> new SwordItem(ModToolTiers.HELLBRINGER, 4, 2, new Item.Properties()));
+            () -> new SwordItem(ModToolTiers.HELLBRINGER, 4, -2, new Item.Properties()));
     public static final  RegistryObject<Item> HELLBRINGER_PICKAXE = Items.register("hellbringer_pickaxe",
-            () -> new PickaxeItem(ModToolTiers.HELLBRINGER, 1, 1,(new Item.Properties())));
+            () -> new PickaxeItem(ModToolTiers.HELLBRINGER, 1, -2.8f,(new Item.Properties())));
     public static final  RegistryObject<Item> HELLBRINGER_AXE = Items.register("hellbringer_axe",
-            () -> new AxeItem(ModToolTiers.HELLBRINGER, 7, 1,(new Item.Properties())));
+            () -> new AxeItem(ModToolTiers.HELLBRINGER, 7, -2.8f,(new Item.Properties())));
     public static final  RegistryObject<Item> HELLBRINGER_SHOVEL = Items.register("hellbringer_shovel",
-            () -> new ShovelItem(ModToolTiers.HELLBRINGER,0 , 0,(new Item.Properties())));
+            () -> new ShovelItem(ModToolTiers.HELLBRINGER,0 , -3,(new Item.Properties())));
     public static final  RegistryObject<Item> HELLBRINGER_HOE = Items.register("hellbringer_hoe",
-            () -> new HoeItem(ModToolTiers.HELLBRINGER,0 ,0 ,(new Item.Properties())));
+            () -> new HoeItem(ModToolTiers.HELLBRINGER,0 ,-3 ,(new Item.Properties())));
 
     //armor
 

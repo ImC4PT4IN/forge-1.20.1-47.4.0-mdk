@@ -1,0 +1,14 @@
+{
+  "type": "chainsmod:add_item",
+  "conditions": [
+    {
+      "block": "minecraft:bone_block",
+      "condition": "minecraft:block_state_property"
+    },
+    {
+      "chance": 0.2,
+      "condition": "minecraft:random_chance"
+    }
+  ],
+  "item": "chainsmod:petrol"
+}

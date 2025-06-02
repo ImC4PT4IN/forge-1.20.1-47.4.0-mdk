@@ -14,7 +14,7 @@ import java.util.List;
 
 public class ModToolTiers {
     public static final Tier HELLBRINGER = TierSortingRegistry.registerTier(
-            new ForgeTier(4, 2000, 9f, 4f, 15,
+            new ForgeTier(4, 2000, 1f, 3f, 15,
                     ModTags.Blocks.NEEDS_HELLBRINGER_TOOL, () -> Ingredient.of(ModItems.HELLBRINGER.get())),
             new ResourceLocation(ChainsMod.MOD_ID, "hellbringer"), List.of(Tiers.DIAMOND), List.of());
 

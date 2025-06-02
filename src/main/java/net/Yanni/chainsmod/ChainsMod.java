@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import net.Yanni.chainsmod.block.ModBlocks;
 import net.Yanni.chainsmod.item.ModCreativeModTabs;
 import net.Yanni.chainsmod.item.ModItems;
+import net.Yanni.chainsmod.loot.ModLootModifiers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -37,6 +38,8 @@ public class ChainsMod
         ModItems.register(modEventBus);
 
         ModBlocks.register(modEventBus);
+
+        ModLootModifiers.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
