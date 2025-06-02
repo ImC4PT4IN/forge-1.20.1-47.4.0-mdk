@@ -31,5 +31,12 @@
   "item.chainsmod.hellbringer_axe": "Hellbringer Axe",
   "item.chainsmod.hellbringer_shovel": "Hellbringer Shovel",
   "item.chainsmod.hellbringer_hoe": "Hellbringer Hoe",
+  "item.chainsmod.hellbringer_helmet": "Hellbringer Helmet",
+  "item.chainsmod.hellbringer_chestplate": "Hellbringer Chestplate",
+  "item.chainsmod.hellbringer_leggings": "Hellbringer Leggings",
+  "item.chainsmod.hellbringer_boots": "Hellbringer Boots",
+
+
+
   "chains.tutorial_tab": "Chains Mod"
 }
