@@ -1,4 +1,4 @@
-// 1.20.1	2025-06-02T16:10:00.1553015	Item Models: chainsmod
+// 1.20.1	2025-06-02T19:51:27.8143755	Item Models: chainsmod
 d1a5d106e81ffa2ca74ca24bc5db3b35fa8a25a0 assets/chainsmod/models/item/blue.json
 a4ff6708a7466d8bc5fa310584f71d270ebae662 assets/chainsmod/models/item/blue_boots.json
 8b8aa1c7eff78cb23d8d2632974efeab6c4b408d assets/chainsmod/models/item/blue_boots_amethyst_trim.json
@@ -108,3 +108,4 @@ e0bf180f0197a8a2ce41af2d4f141cd66dedc354 assets/chainsmod/models/item/hellbringe
 d2c63aedf501270c592edf890cda1a29a7869b85 assets/chainsmod/models/item/metal_detector.json
 af2dc77a44832058a03a08aeb03a78d900de5000 assets/chainsmod/models/item/petrol.json
 30eb3913015adf92fe09af74526d8d5660176ea8 assets/chainsmod/models/item/strawberry.json
+2881a1029825ca96b7ce7bf048856e1e8550e938 assets/chainsmod/models/item/strawberry_seeds.json

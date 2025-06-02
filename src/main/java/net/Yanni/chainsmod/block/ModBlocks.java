@@ -2,6 +2,7 @@ package net.Yanni.chainsmod.block;
 
 import net.Yanni.chainsmod.ChainsMod;
 import net.Yanni.chainsmod.block.custom.SoundBlock;
+import net.Yanni.chainsmod.block.custom.StrawberryCropBlock;
 import net.Yanni.chainsmod.item.ModItems;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
@@ -75,6 +76,8 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> HELLBRINGER_TRAPDOOR = registerBlock("hellbringer_trapdoor",
             () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion(), BlockSetType.IRON));
+    public static final RegistryObject<Block> STRAWBERRY_CROP = BLOCKS.register("strawberry_crop",
+            () -> new StrawberryCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
 
 
 

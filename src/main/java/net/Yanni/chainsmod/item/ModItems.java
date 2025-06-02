@@ -1,6 +1,7 @@
 package net.Yanni.chainsmod.item;
 
 import net.Yanni.chainsmod.ChainsMod;
+import net.Yanni.chainsmod.block.ModBlocks;
 import net.Yanni.chainsmod.item.custom.FuelItem;
 import net.Yanni.chainsmod.item.custom.MetalDetectorItem;
 import net.Yanni.chainsmod.item.custom.ModArmorItem;
@@ -36,6 +37,9 @@ public class ModItems {
 
     public static final  RegistryObject<Item> STRAWBERRY = Items.register("strawberry",
             () -> new Item((new Item.Properties().food(ModFoods.STRAWBERRY).stacksTo(16))));
+    public static final  RegistryObject<Item> STRAWBERRY_SEEDS = Items.register("strawberry_seeds",
+            () -> new ItemNameBlockItem(ModBlocks.STRAWBERRY_CROP.get(), new Item.Properties()));
+
 
     //tools
 

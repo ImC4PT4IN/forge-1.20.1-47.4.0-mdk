@@ -53,6 +53,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.HELLBRINGER_ORE);
         simpleItem(ModItems.BLUE_ORE);
         simpleItem(ModItems.METAL_DETECTOR);
+        simpleItem(ModItems.STRAWBERRY_SEEDS);
 
         fenceItem(ModBlocks.HELLBRINGER_FENCE, ModBlocks.HELLBRINGER_BLOCK);
         buttonItem(ModBlocks.HELLBRINGER_BUTTON, ModBlocks.HELLBRINGER_BLOCK);

@@ -1,5 +1,6 @@
-// 1.20.1	2025-06-02T18:32:06.704767	Global Loot Modifiers : chainsmod
+// 1.20.1	2025-06-02T19:26:27.6701969	Global Loot Modifiers : chainsmod
 38e74a578545546d743bbbf8beaa00b2da755a0d data/chainsmod/loot_modifiers/metal_detector_from_jungle_temples.json
+ee8735b8a7da21c3e929aceba776ce9aabd1d311 data/chainsmod/loot_modifiers/metal_detector_from_suspicious_sand.json
 df8a976553d5fcb778f5ef1aea7d205e39686d86 data/chainsmod/loot_modifiers/petrol_from_bone_block.json
 8bce3de8e6536c56cfb9786d8cfaea0be90edc52 data/chainsmod/loot_modifiers/petrol_from_zombie.json
-a498884c6bab7e0d639a005bba10c2f943eda97a data/forge/loot_modifiers/global_loot_modifiers.json
+47309c0b1d9565590ca92614e3a6eb5e24a31bc7 data/forge/loot_modifiers/global_loot_modifiers.json

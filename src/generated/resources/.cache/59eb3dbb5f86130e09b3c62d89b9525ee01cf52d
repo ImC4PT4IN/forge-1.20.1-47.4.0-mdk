@@ -1,4 +1,4 @@
-// 1.20.1	2025-06-01T12:36:42.4327968	Loot Tables
+// 1.20.1	2025-06-02T19:51:27.8175113	Loot Tables
 2612db976017bb333f231a315b0f91bbe231ab2b data/chainsmod/loot_tables/blocks/blue_block.json
 49940b77ec62521f76ef280fd4db120d244d6d9c data/chainsmod/loot_tables/blocks/blue_block_ore.json
 9e932c0d81a4c98b716c7eac1c29a54638d6aab6 data/chainsmod/loot_tables/blocks/deepslate_hellbringer_block_ore.json
@@ -16,3 +16,4 @@ ec11aaaadf7620d55a148480764d38098b5e7412 data/chainsmod/loot_tables/blocks/hellb
 036aacce719cb15b096272e40b967649aa44ed62 data/chainsmod/loot_tables/blocks/hellbringer_wall.json
 8946bc00619cba58276467b1910fc1166e932c41 data/chainsmod/loot_tables/blocks/nether_hellbringer_block_ore.json
 b787f7ee82365c83f8b82595a2fee41c460ef966 data/chainsmod/loot_tables/blocks/sound_block.json
+69090b5f94b16cd3f08abca42cc7be9df0377428 data/chainsmod/loot_tables/blocks/strawberry_crop.json

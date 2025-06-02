@@ -1,4 +1,4 @@
-// 1.20.1	2025-06-01T12:36:42.435303	Block States: chainsmod
+// 1.20.1	2025-06-02T19:51:27.8185122	Block States: chainsmod
 b05eb7ec02785838e078de08b9471e948f4c2c64 assets/chainsmod/blockstates/blue_block.json
 58e56234a4bd9839ced830a4da878aa01e831088 assets/chainsmod/blockstates/blue_block_ore.json
 18a4c0816a9533c9de1ad97d5ac5b2a4992d3137 assets/chainsmod/blockstates/deepslate_hellbringer_block_ore.json
@@ -16,6 +16,7 @@ a446e37423ca7de9b71e7a7ccf56d1031d80a264 assets/chainsmod/blockstates/hellbringe
 2ad7f47a26c418c81ddbb34f90bd964208c11c31 assets/chainsmod/blockstates/hellbringer_wall.json
 fe644696b15f9b005729cf2e8869969296ea7b66 assets/chainsmod/blockstates/nether_hellbringer_block_ore.json
 abfd77663de51c5380b41eeffad402ffe39a3bcd assets/chainsmod/blockstates/sound_block.json
+3b421b9656bdb59b039dda173d7df636f4f6dbf6 assets/chainsmod/blockstates/strawberry_crop.json
 86fb1155d0af06c7ce46ad725242fbe15523b1eb assets/chainsmod/models/block/blue_block.json
 5a8c865a4297d8c9f6fa8dcbf7e97446774413e2 assets/chainsmod/models/block/blue_block_ore.json
 8980f7bef02bd4f32b54e64b75305290bde15117 assets/chainsmod/models/block/deepslate_hellbringer_block_ore.json
@@ -53,6 +54,12 @@ bbb9f1c365b781053841089ffce04787d0e90fc3 assets/chainsmod/models/block/hellbring
 1a0151e71505bef0ada16ed43fd6b56bbe5e6aa4 assets/chainsmod/models/block/hellbringer_wall_side_tall.json
 4ce61bdf5310c74810719e4c027a9d9884522035 assets/chainsmod/models/block/nether_hellbringer_block_ore.json
 ce69be7f0c8a2a94857c2b4cd3bf59e80316170d assets/chainsmod/models/block/sound_block.json
+b9bb3a6c87343a9bb205f12df623d735e09a116d assets/chainsmod/models/block/strawberry_stage0.json
+f4de53bdc9e36c9bba662161e66e8412d1440fdc assets/chainsmod/models/block/strawberry_stage1.json
+5edbce3541d39b5c31770c7cbb8cfd3158e3a1eb assets/chainsmod/models/block/strawberry_stage2.json
+4d07a085d7d6afff23dc3e180611fac5514a9820 assets/chainsmod/models/block/strawberry_stage3.json
+1821608fbad2eb83d247e2cf74313f0276656ec1 assets/chainsmod/models/block/strawberry_stage4.json
+d9b0a5164b4761beacce38def8e4c91b05f92be2 assets/chainsmod/models/block/strawberry_stage5.json
 d67c2449b9cbdf219800d38655d425ca7d7a52eb assets/chainsmod/models/item/blue_block.json
 68dbf21e27932b2d7d0a93b7f62c4a84e67c5e31 assets/chainsmod/models/item/blue_block_ore.json
 5ff72e46677b6415a788c226003ed94b817a54f0 assets/chainsmod/models/item/deepslate_hellbringer_block_ore.json
