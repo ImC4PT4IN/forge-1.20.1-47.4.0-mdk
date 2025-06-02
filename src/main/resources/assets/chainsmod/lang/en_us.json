@@ -35,7 +35,10 @@
   "item.chainsmod.hellbringer_chestplate": "Hellbringer Chestplate",
   "item.chainsmod.hellbringer_leggings": "Hellbringer Leggings",
   "item.chainsmod.hellbringer_boots": "Hellbringer Boots",
-
+  "item.chainsmod.blue_boots": "Blue Boots",
+  "item.chainsmod.blue_leggings": "Blue Leggings",
+  "item.chainsmod.blue_chestplate": "Blue Chestplate",
+  "item.chainsmod.blue_helmet": "Blue Helmet",
 
 
   "chains.tutorial_tab": "Chains Mod"

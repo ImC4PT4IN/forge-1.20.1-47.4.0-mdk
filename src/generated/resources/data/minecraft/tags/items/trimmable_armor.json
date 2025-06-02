@@ -3,6 +3,10 @@
     "chainsmod:hellbringer_helmet",
     "chainsmod:hellbringer_chestplate",
     "chainsmod:hellbringer_leggings",
-    "chainsmod:hellbringer_boots"
+    "chainsmod:hellbringer_boots",
+    "chainsmod:blue_helmet",
+    "chainsmod:blue_chestplate",
+    "chainsmod:blue_leggings",
+    "chainsmod:blue_boots"
   ]
 }

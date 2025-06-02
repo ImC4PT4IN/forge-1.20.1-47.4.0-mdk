@@ -54,6 +54,11 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.HELLBRINGER_CHESTPLATE.get());
                         pOutput.accept(ModItems.HELLBRINGER_LEGGINGS.get());
                         pOutput.accept(ModItems.HELLBRINGER_BOOTS.get());
+                        pOutput.accept(ModItems.BLUE_HELMET.get());
+                        pOutput.accept(ModItems.BLUE_CHESTPLATE.get());
+                        pOutput.accept(ModItems.BLUE_LEGGINGS.get());
+                        pOutput.accept(ModItems.BLUE_BOOTS.get());
+
 
                     })
                     .build());

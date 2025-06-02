@@ -3,6 +3,7 @@ package net.Yanni.chainsmod.item;
 import net.Yanni.chainsmod.ChainsMod;
 import net.Yanni.chainsmod.item.custom.FuelItem;
 import net.Yanni.chainsmod.item.custom.MetalDetectorItem;
+import net.Yanni.chainsmod.item.custom.ModArmorItem;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -59,6 +60,18 @@ public class ModItems {
             () -> new ArmorItem(ModArmorMaterials.HELLBRINGER, ArmorItem.Type.LEGGINGS, new Item.Properties()));
     public static final  RegistryObject<Item> HELLBRINGER_BOOTS = Items.register("hellbringer_boots",
             () -> new ArmorItem(ModArmorMaterials.HELLBRINGER, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+    //
+
+    public static final  RegistryObject<Item> BLUE_HELMET = Items.register("blue_helmet",
+            () -> new ModArmorItem(ModArmorMaterials.BLUE, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final  RegistryObject<Item> BLUE_CHESTPLATE = Items.register("blue_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.BLUE, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final  RegistryObject<Item> BLUE_LEGGINGS = Items.register("blue_leggings",
+            () -> new ArmorItem(ModArmorMaterials.BLUE, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final  RegistryObject<Item> BLUE_BOOTS = Items.register("blue_boots",
+            () -> new ArmorItem(ModArmorMaterials.BLUE, ArmorItem.Type.BOOTS, new Item.Properties()));
+
 
     //fuel
 

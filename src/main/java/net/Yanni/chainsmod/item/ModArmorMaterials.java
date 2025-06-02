@@ -11,7 +11,9 @@ import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
     HELLBRINGER("hellbringer", 26, new int[]{ 5, 7, 5, 4}, 25,
-            SoundEvents.ARMOR_EQUIP_GOLD, 1f, 0f, () -> Ingredient.of(ModItems.HELLBRINGER.get()));
+            SoundEvents.ARMOR_EQUIP_GOLD, 1f, 0f, () -> Ingredient.of(ModItems.HELLBRINGER.get())),
+    BLUE("blue", 32, new int[]{ 8, 10, 8, 7}, 25,
+            SoundEvents.ARMOR_EQUIP_GOLD, 1f, 0f, () -> Ingredient.of(ModItems.BLUE.get()));
 
     private final String name;
     private final int durabilityMultiplier;
