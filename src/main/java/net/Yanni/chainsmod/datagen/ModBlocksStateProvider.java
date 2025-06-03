@@ -2,6 +2,7 @@ package net.Yanni.chainsmod.datagen;
 
 import net.Yanni.chainsmod.ChainsMod;
 import net.Yanni.chainsmod.block.ModBlocks;
+import net.Yanni.chainsmod.block.custom.CornCropBlock;
 import net.Yanni.chainsmod.block.custom.StrawberryCropBlock;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
@@ -41,6 +42,7 @@ public class ModBlocksStateProvider extends BlockStateProvider {
         trapdoorBlockWithRenderType(((TrapDoorBlock) ModBlocks.HELLBRINGER_TRAPDOOR.get()), modLoc("block/hellbringer_trapdoor"),true ,"cutout");
 
         makeStrawberryCrop((CropBlock)ModBlocks.STRAWBERRY_CROP.get(),"strawberry_stage","strawberry_stage");
+        makeCornCrop((CropBlock)ModBlocks.CORN_CROP.get(),"corn_stage_","corn_stage_");
     }
     public void makeStrawberryCrop(CropBlock block, String modelName, String textureName) {
         Function<BlockState, ConfiguredModel[]> function = state -> strawberryStates(state, block, modelName, textureName);
@@ -55,6 +57,20 @@ public class ModBlocksStateProvider extends BlockStateProvider {
 
         return models;
     }
+    public void makeCornCrop(CropBlock block, String modelName, String textureName) {
+        Function<BlockState, ConfiguredModel[]> function = state -> cornStates(state, block, modelName, textureName);
+
+        getVariantBuilder(block).forAllStates(function);
+    }
+
+    private ConfiguredModel[] cornStates(BlockState state, CropBlock block, String modelName, String textureName) {
+        ConfiguredModel[] models = new ConfiguredModel[1];
+        models[0] = new ConfiguredModel(models().crop(modelName + state.getValue(((CornCropBlock) block).getAgeProperty()),
+                new ResourceLocation(ChainsMod.MOD_ID, "block/" + textureName + state.getValue(((CornCropBlock) block).getAgeProperty()))).renderType("cutout"));
+
+        return models;
+    }
+
 
 
 

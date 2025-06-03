@@ -1,4 +1,4 @@
-// 1.20.1	2025-06-02T19:51:27.8143755	Item Models: chainsmod
+// 1.20.1	2025-06-03T19:54:55.974362	Item Models: chainsmod
 d1a5d106e81ffa2ca74ca24bc5db3b35fa8a25a0 assets/chainsmod/models/item/blue.json
 a4ff6708a7466d8bc5fa310584f71d270ebae662 assets/chainsmod/models/item/blue_boots.json
 8b8aa1c7eff78cb23d8d2632974efeab6c4b408d assets/chainsmod/models/item/blue_boots_amethyst_trim.json
@@ -45,6 +45,8 @@ ef5ddb3b1401075afc404c561b29dca324d85acf assets/chainsmod/models/item/blue_leggi
 c75b5dc2011bcd5b8e71cec3c2613a9c794727ca assets/chainsmod/models/item/blue_leggings_quartz_trim.json
 80241c57611b5cabcdc95054e04e9fa16c54fdb7 assets/chainsmod/models/item/blue_leggings_redstone_trim.json
 1f113639821a00cbf43c2f7d11f94dc8a1685bc0 assets/chainsmod/models/item/blue_ore.json
+7dd10294c9dc1cc8a99cfd5a88068fd6498d0d7e assets/chainsmod/models/item/corn.json
+da24d84f7d3fcf93dd21607388d496b7df3a5e48 assets/chainsmod/models/item/corn_seeds.json
 b5d3b9b5f9b22098a960768feabbd8a865fa818e assets/chainsmod/models/item/hellbringer.json
 ce2a34723f719e98e6f084150840824983fa48e9 assets/chainsmod/models/item/hellbringer_axe.json
 7da7aea34344743991886b0faa869452fa8cbf03 assets/chainsmod/models/item/hellbringer_boots.json

@@ -1,6 +1,7 @@
-// 1.20.1	2025-06-02T19:51:27.8175113	Loot Tables
+// 1.20.1	2025-06-03T19:54:55.9778673	Loot Tables
 2612db976017bb333f231a315b0f91bbe231ab2b data/chainsmod/loot_tables/blocks/blue_block.json
 49940b77ec62521f76ef280fd4db120d244d6d9c data/chainsmod/loot_tables/blocks/blue_block_ore.json
+f45cf7383ddf5db98e48e1b9b5815a9177b769ec data/chainsmod/loot_tables/blocks/corn_crop.json
 9e932c0d81a4c98b716c7eac1c29a54638d6aab6 data/chainsmod/loot_tables/blocks/deepslate_hellbringer_block_ore.json
 b6209cee794303a96a918b5f3b098299e7780135 data/chainsmod/loot_tables/blocks/end_stone_hellbringer_block_ore.json
 76528ec57193207b133754e99b732e7772dcc3be data/chainsmod/loot_tables/blocks/hellbringer_block.json

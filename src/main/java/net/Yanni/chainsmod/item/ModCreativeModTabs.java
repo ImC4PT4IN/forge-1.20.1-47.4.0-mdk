@@ -59,6 +59,9 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.BLUE_LEGGINGS.get());
                         pOutput.accept(ModItems.BLUE_BOOTS.get());
                         pOutput.accept(ModItems.STRAWBERRY_SEEDS.get());
+                        pOutput.accept(ModItems.CORN.get());
+                        pOutput.accept(ModItems.CORN_SEEDS.get());
+
 
 
                     })

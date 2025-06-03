@@ -39,6 +39,10 @@ public class ModItems {
             () -> new Item((new Item.Properties().food(ModFoods.STRAWBERRY).stacksTo(16))));
     public static final  RegistryObject<Item> STRAWBERRY_SEEDS = Items.register("strawberry_seeds",
             () -> new ItemNameBlockItem(ModBlocks.STRAWBERRY_CROP.get(), new Item.Properties()));
+    public static final  RegistryObject<Item> CORN_SEEDS = Items.register("corn_seeds",
+            () -> new ItemNameBlockItem(ModBlocks.CORN_CROP.get(), new Item.Properties()));
+    public static final  RegistryObject<Item> CORN = Items.register("corn",
+            () -> new Item((new Item.Properties().food(ModFoods.CORN).stacksTo(32))));
 
 
     //tools
